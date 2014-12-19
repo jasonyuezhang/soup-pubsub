@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'crypton' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 warn package.json pubsub@0.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'crypton', null ]
+7 verbose cache add name=undefined spec="crypton" args=["crypton",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'crypton',
+8 verbose parsed url   path: 'crypton',
+8 verbose parsed url   href: 'crypton' }
+9 silly lockFile d1e0dec9-crypton crypton
+10 verbose lock crypton /root/.npm/d1e0dec9-crypton.lock
+11 silly lockFile d1e0dec9-crypton crypton
+12 silly lockFile d1e0dec9-crypton crypton
+13 verbose addNamed [ 'crypton', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 8096ab95-crypton crypton@
+16 verbose lock crypton@ /root/.npm/8096ab95-crypton.lock
+17 silly addNameRange { name: 'crypton', range: '*', hasData: false }
+18 verbose request where is /crypton
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id d7a1361f6f6e1231
+21 verbose url raw /crypton
+22 verbose url resolving [ 'https://registry.npmjs.org/', './crypton' ]
+23 verbose url resolved https://registry.npmjs.org/crypton
+24 verbose request where is https://registry.npmjs.org/crypton
+25 info trying registry request attempt 1 at 20:26:45
+26 http GET https://registry.npmjs.org/crypton
+27 http 404 https://registry.npmjs.org/crypton
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Thu, 18 Dec 2014 20:26:45 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"ANAD2YPAVKTEMTMTJX6R891I8"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '445',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1418934405.745377,VS0,VE75',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 8096ab95-crypton crypton@
+30 silly lockFile 8096ab95-crypton crypton@
+31 error 404 Not Found
+31 error 404
+31 error 404 'crypton' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'pubsub'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.14.26-24.46.amzn1.x86_64
+33 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "crypton"
+34 error cwd /var/www/html/javascript/nodejs/soup/pubsub
+35 error node -v v0.10.30
+36 error npm -v 1.4.21
+37 error code E404
+38 verbose exit [ 1, true ]
